@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txt_kisah" type="id" />
+    <item name="txtnama" type="id" />
+    <item name="txtlahir" type="id" />
+    <item name="txtumur" type="id" />
+    <item name="txttempat" type="id" />
+    <item name="txtimage" type="id" />
+</resources>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/KisahNabi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Kisah Nabi"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_adam_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="NABI ADAM.AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KisahNabi" />
+
+    <Button
+        android:id="@+id/btn_idris_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI IDRIS AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_adam_as" />
+
+    <Button
+        android:id="@+id/btn_nuh_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI NUH AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_idris_as" />
+
+
+    <Button
+        android:id="@+id/btn_hud_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI HUD AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_nuh_as" />
+
+    <Button
+        android:id="@+id/btn_shalih_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI SHALIH AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_hud_as" />
+
+    <Button
+        android:id="@+id/btn_ibrahim_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI IBRAHIM AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_shalih_as" />
+
+    <Button
+        android:id="@+id/btn_luth_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI LUTH AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ibrahim_as" />
+
+    <Button
+        android:id="@+id/btn_ismail_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI ISMAIL AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_luth_as" />
+
+    <Button
+        android:id="@+id/btn_ishaq_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI ISHAQ AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ismail_as" />
+
+    <Button
+        android:id="@+id/btn_yakub_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI YAKUB AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ishaq_as" />
+
+    <Button
+        android:id="@+id/btn_yusuf_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI YUSUF AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_yakub_as" />
+
+    <Button
+        android:id="@+id/btn_ayub_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI AYUB AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_yusuf_as" />
+
+    <Button
+        android:id="@+id/btn_syuaib_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI SYUAIB AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ayub_as" />
+
+    <Button
+        android:id="@+id/btn_musa_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI MUSA AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_syuaib_as" />
+
+    <Button
+        android:id="@+id/btn_harun_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI HARUN AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_musa_as" />
+
+    <Button
+        android:id="@+id/btn_dzulkifli_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI DZULKIFLI AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_harun_as" />
+
+    <Button
+        android:id="@+id/btn_daud_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI DAUD AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_dzulkifli_as" />
+
+    <Button
+        android:id="@+id/btn_sulaiman_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI SULAIMAN AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_daud_as" />
+
+    <Button
+        android:id="@+id/btn_ilyas_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI ILYAS AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_sulaiman_as" />
+
+    <Button
+        android:id="@+id/btn_ilyasa_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI ILYASA AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ilyas_as" />
+
+    <Button
+        android:id="@+id/btn_yunus_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI YUNUS AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ilyasa_as" />
+
+    <Button
+        android:id="@+id/btn_zakaria_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI ZAKARIA AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_yunus_as" />
+
+    <Button
+        android:id="@+id/btn_yahya_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI YAHYA AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_zakaria_as" />
+
+    <Button
+        android:id="@+id/btn_isa_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI ISA AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_yahya_as" />
+
+    <Button
+        android:id="@+id/btn_muhammad_as"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="NABI MUHAMMAD AS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_isa_as" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
